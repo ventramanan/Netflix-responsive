@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+
+    
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+#img1{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    
+}
+#img2{
+    width: 100px;
+    height: 25px;
+    position: relative;
+    bottom: 635px;
+    left: 50px;
+}
+#navbar{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 660px;
+    left: 150px;
+    color: white;
+    font-family: Nunito Sans;
+    
+}
+#navbar-2{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 1100px;
+    bottom: 680px;
+}
+#div1{
+    
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 400px;
+}
+#shows{
+    letter-spacing: 10px;
+    color: white;
+    position: absolute;
+    bottom: 335px;
+    left: 100px;    
+    
+}
+
+#maids{
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+}
+#playimages{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+#infoimages{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+#div-4{
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 120px;
+    left: 45px;
+}
+#div-5{
+    color: white;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+}
+.moviess{
+    position: relative;
+    bottom: 135px;
+    
+}
+#image-1{
+    margin-left: 40px;
+}
+#image-2{
+    margin-left: 220px;
+    position: relative;
+    bottom: 140px;
+}
+#image-3{
+    margin-left: 470px;
+    position: relative;
+    bottom: 270px;
+}
+#image-4{
+    margin-left: 710px;
+    position: relative;
+    bottom: 405px;
+
+}
+#image-5{
+    margin-left: 950px;
+    position: relative;
+    bottom: 540px;
+
+}
+#heading{
+    color: white;
+    position: relative;
+    bottom: 650px;
+    left: 45px;
+}
+
+.top10{
+
+    display: flex;
+    position: relative;
+    bottom: 630px;
+    right: 20px;
+}
+#movie-bar{
+    padding: 10px;
+    height: 200px;
+    display: flex;
+}
+#trends{
+    position: relative;
+    bottom: 600px;
+    left: 45px;
+}
+.trendings{
+    width: 1400px;
+    display: flex;
+    position: relative;
+    bottom: 570px;
+    left: 45px;
+}
+#trend-1{
+    width: 500px;
+}
+#trend-2{
+    width: 500px;
+    position: relative;
+    right: 70px;
+}
+#trend-3{
+    width: 500px;
+    position: relative;
+    right: 110px;
+}
+#trend-4{
+    width: 500px;
+    position: relative;
+    right: 150px;
+}
+#trend-5{
+    width: 500px; 
+    position: relative;
+    right: 180px;
+}
+#science{
+    position: relative;
+    bottom: 500px;
+    left: 45px;
+}
+.scific{
+    width: 1400px;
+    display: flex;
+    position: relative;
+    bottom: 470px;
+    left: 45px;
+}
+#scifi-1{
+    width: 500px;
+}
+#scifi-2{
+    width: 500px;
+    position: relative;
+    right: 70px;
+}
+#scifi-3{
+    width: 500px;
+    position: relative;
+    right: 110px;
+}
+#scifi-4{
+    width: 500px;
+    position: relative;
+    right: 150px;
+}
+#scifi-5{
+    width: 500px; 
+    position: relative;
+    right: 180px;
+}
+footer{
+    padding: 60px;
+    margin-left: 35%;
+    width: 600px;
+
+}
+
+.icons{
+    background-color: white;
+    margin: 10px;
+    
+    
+}
+
+#randomNames{
+    color: gray;
+}
+
+#box{
+    border: solid gray;
+    border-radius: 1%;
+    padding: 5px;
+}
+#ten{
+    color: white;
+    visibility: hidden;
+}
+@media (max-width:425px){
+    #img1{
+        width: 450px;
+    }
+    #nav1{
+        margin-left: 200px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    #maid{
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    #div1 img{
+        visibility: hidden;
+    }
+    #show{
+        visibility: hidden;
+    }
+    #div4{
+        margin-bottom: 100px;
+    }
+    #image-3{
+        visibility: hidden;
+    }
+    #image-4{
+        visibility: hidden;
+    }
+    #image-5{
+        visibility: hidden;
+    }
+    .movies{
+        position: relative;
+        bottom: 300px;
+    }
+    #image-1{
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 30px;
+    }
+    #image-2{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 30px;
+    }
+    #heading{
+        visibility: hidden;
+    }
+    #ten{
+        visibility: visible;
+        position: relative;
+        bottom: 2200px;
+    }
+    .top10{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #tc00{
+        width: 390px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 40px;
+    }
+    #tc01{
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #tc02{
+        visibility: hidden;
+    }
+    #tc03{
+        visibility: hidden;
+    }
+    #tc04{
+        visibility: hidden;
+    }
+    #tc0{
+        width: 390px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        right: 40px;
+    }
+    #tc011{
+        width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        position: relative;
+        right: 150px;
+    }
+
+
+}
